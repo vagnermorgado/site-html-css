@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vagner Morgado- Histórias inspiradoras
+        </title>
+        <link rel="icon" href="vagnermorgado/img/vag.png">
+
+        <!--GOOGLE ICONS-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- MATERIALIZE CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!--CUSTOM CSS-->
+        <link rel="stylesheet" href="css/custom.css"
+
+    </head>
+    <body>
+        <header>
+            <!-- MENU-MOBILE -->
+            <ul class="side-nav" id="menu-mobile">
+                <li><a href="">Home</a></li>
+                <li><a href="">Infância</a></li>
+                <li><a href="">Adolescência</a></li>
+                <li><a href="">Fase Adulta</a></li>
+                <li><a href="">Depressão</a></li>
+            </ul>
+
+            <div class="navbar-fixed">
+                <nav class="navbar z-depth-0">
+                    <div class="nav-wrapper container">
+                        <h1 class="logo_text">Vagner Morgado - Histórias inspiradoras
+                        </h1>
+                        <a href=""><img class="logo_img" src="vagnermorgado/img/logo.png" alt="Vagner Morgado">
+                        </a>
+
+                        <ul class="right light hide-on-med-and-down">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Infância</a></li>
+                            <li><a href="">Adolescência</a></li>
+                            <li><a href="">Fase Adulta</a></li>
+                            <li><a href="">Depressão</a></li>
+                        </ul>
+
+                        <a href="#" data-activates="menu-mobile" class="button-collapse right">menu
+                        <i class="materialize-icons" menu></i></a>
+
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+
+        <section class="home bloco">
+            <div class="row container banner">
+                <div class="col s12 center">
+                    <h2 class="white-text">Muita Sabedoria Para Compartilhar</h2>
+                    <p class="white-text light">Te convido a aprender com inúmeras experiências que 
+                        marcaram minha vida. Vamos nessa? 
+                    </p>
+
+                    <div class="row">
+                        <a class="btn btn-large grey grey-logo"> Sobre mim</a>
+                        <a class="btn btn-large white black-text">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+        </script>
+
+        <!--MATERIALIZE JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        </script>
+
+        <!-- JAVASCRIPT -->
+        <script src="js/script.js">
+            $(document).ready(function(){
+                //MENU MOBILE
+                $(".button-collapse").sideNav();
+            });
+        </script>
+        
+    </body>
+</html>
